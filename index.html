@@ -1,1 +1,65 @@
-<h1>Github pages test</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Página con navbar y descripción</title>
+  <!-- Vinculación al CSS externo -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="nav-inner">
+      <div class="brand">
+        <span class="brand-dot"></span>
+        <span>BLOG DE AXEL</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#">Inicio</a>
+        <a href="#">Servicios</a>
+        <a href="#">Blog</a>
+        <a href="#">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Subtítulo -->
+    <div class="subtitle">
+      <span>How to recover your Windows password?</span>
+    </div>
+
+    <!-- Contenido principal -->
+    <section id="contenido1" class="content-card visible">
+      <div class="description">
+        <h2>Recover Windows with forgotten password</h2>
+        <p>
+          Here we will see how to recover your Windows password if you don't remember it without having to format the disk, using only the command prompt.
+        </p>
+        <p>
+          We'll go step by step; tap "explore more" to open the content.
+        </p>
+        <a class="cta" id="linkMas" href="#">Explorar más</a>
+      </div>
+
+      <div class="image-wrap">
+        <img src="img/Captura.JPG" alt="Imagen ilustrativa" />
+      </div>
+    </section>
+
+    <!-- Contenido secundario -->
+    <section id="contenido2" class="content-card hidden">
+      <div class="description">
+        <h2>Contenido secundario</h2>
+        <p>Este es el bloque que aparece al tocar "Explorar más".</p>
+        <a class="cta" id="linkVolver" href="#">Volver</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
+
